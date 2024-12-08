@@ -51,7 +51,7 @@ async function sendMessage() {
     }
 
     try {
-        const response = await fetch('http://xxxxxx.ngrok.io/send_message', {  // Replace with your ngrok URL
+        const response = await fetch('https://331b-64-188-193-73.ngrok-free.app/send_message/send_message', {  // Replace with your ngrok URL
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({
