@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ServerTalk Web App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to ServerTalk</h1>
+        
+        <label for="server">Choose a server:</label>
+        <select id="server">
+            <option value="randoms-lazy-projects">Random's lazy projects</option>
+            <option value="codeboom">CodeBoom</option>
+        </select>
+
+        <label for="channel">Choose a channel:</label>
+        <select id="channel">
+            <!-- Channel options will populate based on server selection -->
+        </select>
+
+        <label for="message">Your message:</label>
+        <textarea id="message" placeholder="Type your message here..."></textarea>
+        
+        <button id="sendMessage">Send Message</button>
+        <button id="getInvite">Get Server Invite</button>
+        
+        <p id="status"></p>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
